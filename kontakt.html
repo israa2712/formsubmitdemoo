@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="logomenu">
+        <a href="index.html"><img src="img/logo.png" alt="logo" style=" width: 140px;"></a>
+        <div class="hovedmenudesk">
+            <a href="index.html">Forside</a>
+            <a href="studie.html">Studie</a>
+            <a href="dokumentation.html">Dokumentation</a>
+            <a href="ommig.html">Om mig</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Kontakt</h1>
+        </header>
+        <article class="kontaktarticle">
+        <div class="kontakt">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/israa-issam-chehade"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <a href="https://www.linkedin.com/in/israa-issam-chehade">Israa Issam Chehade</a>
+            </ul>
+        </div>
+        <div class="kontakt">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-envelope" style="color: rgb(210, 52, 52);"></i>
+                </li>
+                <a href="#">israaissam@hotmail.com</a>
+            </ul>
+        </div>
+        <!-- kontakt mig formular -->
+        <div class="skrivtilmig">
+            <h2>Skriv til mig!</h2>
+            <form action="https://formsubmit.co/israaissam@hotmail.com" method="POST">
+                <!-- fjerner spam -->
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <label for="fname">Navn</label>
+                <input type="text" id="fname" name="Fornavn" placeholder="Dit navn ...">
+                <label for="mail">Email</label>
+                <input type="text" id="mail" name="Email" placeholder="Dit Email ...">
+                <label for="subject">Besked</label>
+                <textarea id="subject" name="Besked" placeholder="Din besked ..." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </article>
+    </div>
+    <nav class="hovedmenu">
+        <a href="index.html" class="nav-link">
+            <i class="fa-solid fa-house"></i>
+            <span class="hovedmenutekst">Forside</span>
+        </a>
+        <a href="studie.html" class="nav-link">
+            <i class="fa-solid fa-book"></i>
+            <span class="hovedmenutekst">Studie</span>
+        </a>
+        <a href="dokumentation.html" class="nav-link">
+            <i class="fa-solid fa-file"></i>
+            <span class="hovedmenutekst">Dokumentation</span>
+        </a>
+        <a href="ommig.html" class="nav-link">
+            <i class="fa-solid fa-user"></i>
+            <span class="hovedmenutekst">Om mig</span>
+        </a>
+        <a href="kontakt.html" class="nav-link">
+            <i class="fa-solid fa-message"></i>
+            <span class="hovedmenutekst">Kontakt</span>
+        </a>
+    </nav>
+</body>
+
+</html>
